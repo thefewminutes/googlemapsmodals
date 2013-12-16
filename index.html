@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Maps Launcher</title>
+<link rel="stylesheet" type="text/css" href="css/mapsmodal.css">
+<script src="js/jquery-1.6.4.min.js"></script>
+</head>
+
+<body>
+<h1>Maps Modal Window</h1>
+<p><a href="#" id="north">launch north map</a></p>
+<p><a href="#" id="southeast">launch south east map</a></p>
+<p><a href="#" id="west">launch west map</a></p>
+<!-- modal content -->
+<div id="north-modal">
+    <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201023443477199866162.0004ed5d7a0f5954237d2&amp;ie=UTF8&amp;t=m&amp;ll=-37.589207,145.014381&amp;spn=0.130584,0.219727&amp;z=12&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201023443477199866162.0004ed5d7a0f5954237d2&amp;ie=UTF8&amp;t=m&amp;ll=-37.589207,145.014381&amp;spn=0.130584,0.219727&amp;z=12&amp;source=embed" style="color:#0000FF;text-align:left">Henley North Region</a> in a larger map</small>
+</div>
+<div id="west-modal">
+    <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201023443477199866162.0004ed6d826797743912d&amp;ie=UTF8&amp;t=m&amp;ll=-37.800019,144.648056&amp;spn=0.260427,0.439453&amp;z=11&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201023443477199866162.0004ed6d826797743912d&amp;ie=UTF8&amp;t=m&amp;ll=-37.800019,144.648056&amp;spn=0.260427,0.439453&amp;z=11&amp;source=embed" style="color:#0000FF;text-align:left">Henley West Region</a> in a larger map</small>
+</div>
+<div id="southeast-modal">
+    <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201023443477199866162.0004ed5d1793bd3348bfb&amp;ie=UTF8&amp;t=m&amp;ll=-38.096065,145.291958&amp;spn=0.064845,0.109863&amp;z=13&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201023443477199866162.0004ed5d1793bd3348bfb&amp;ie=UTF8&amp;t=m&amp;ll=-38.096065,145.291958&amp;spn=0.064845,0.109863&amp;z=13&amp;source=embed" style="color:#0000FF;text-align:left">Henley Southeast Region</a> in a larger map</small>
+</div>
+<!-- /modal content -->
+<script src="js/jquery.simplemodal.1.4.4.min.js"></script>
+<script type="text/javascript" src="js/maplauncher.js"></script>
+</body>
+</html>
